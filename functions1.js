@@ -1,6 +1,6 @@
 
 function printName() {
-    console.log ("Batoul");
+    console.log ("Your Name is Batoul");
 
 
     
@@ -15,4 +15,15 @@ function printAge (birthYear) {
  printAge (1997)
 
 
-function prinAgeAndName () {}
+function prinAgeAndName (birthYear, name) {
+    console.log ("Hello ${name} you are ${2024 - birthYear} years old");
+}
+function printHello (name, language){ 
+
+
+    if (language === "en"){
+        console.log ("Hello ${name}");
+    }
+    else if (language === "es"){
+        console.log ("Hola${name}");
+}}
